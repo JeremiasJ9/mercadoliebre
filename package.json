@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/JeremiasJ9/mercadoliebre/issues"
   },
-  "homepage": "https://github.com/JeremiasJ9/mercadoliebre#readme"
+  "homepage": "https://github.com/JeremiasJ9/mercadoliebre#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
