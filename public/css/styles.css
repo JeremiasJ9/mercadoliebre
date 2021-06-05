@@ -1,3 +1,9 @@
+header {
+ background-color:#EAC926;
+}
+
+
+
 body {
     font-family: 'Roboto', sans-serif;;
     font-size: 12px;
@@ -29,6 +35,5 @@ footer {
 }
 
 .footer-icon {
-    text-align: center;
     color: blue;
 }
