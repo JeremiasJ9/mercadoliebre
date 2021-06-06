@@ -48,3 +48,46 @@ main {
     text-align: center;
     width: 90%;
 }
+
+article {
+    margin: 5px;
+}
+
+.delivery-icon {
+    text-align: center;
+    font-size: 2em;
+}
+
+.caja-hija {
+    border-top: 1px solid #ebebeb;
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+@media (min-width: 361px) {
+    body {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+    .burger-menu {
+        display: none;
+    }
+}
+
+@media (min-width: 769px) {
+   body {
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+   }
+   .burger-menu {
+       display: none;
+   }
+}
+
+@media (max-width: 360px) {
+    .description {
+        display: none;
+    }
+    .nav-bar {
+        display: none;
+    }
+}
