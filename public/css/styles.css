@@ -21,7 +21,14 @@ h3 {
 
 .burger-menu {
     text-align: center;
-    color: blue;
+    color: white;
+    font-size: 2em;
+    background-color:blue;
+    width: 40px;
+    margin: auto;
+    height: 30px;
+    border-radius: 10px;
+    
 }
 
 footer {
@@ -30,6 +37,7 @@ footer {
 
 .footer-icon {
     color: blue;
+    font-size: 2em;
 }
 
 header {
