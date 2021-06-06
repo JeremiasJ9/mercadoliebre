@@ -54,8 +54,9 @@ article {
 }
 
 .delivery-icon {
-    text-align: center;
-    font-size: 2em;
+  text-align: center;
+  font-size: 2em;
+
 }
 
 .caja-hija {
@@ -90,4 +91,10 @@ article {
     .nav-bar {
         display: none;
     }
+}
+
+.precio-descuento {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
