@@ -59,6 +59,10 @@ article {
 
 }
 
+ul {
+    list-style-type: none;
+}
+
 .caja-hija {
     border-top: 1px solid #ebebeb;
     text-align: center;
@@ -95,6 +99,70 @@ article {
 
 .precio-descuento {
     display: flex;
-    flex-direction: row;
-    justify-content: center;
+   
+}
+.price {
+    width: 30%;
+    
+}
+.discount {
+    width: 70%;
+    
+}
+
+
+
+.contenedor-productos {
+    display: flex;
+  width: 100vw;
+  flex-wrap: wrap;
+    
+   
+}
+
+@media (min-width: 1024px) {
+    .contenedor-productos article {
+        width: 25%;
+    }
+}
+
+@media (min-width: 768px) {
+    .contenedor-productos article {
+        width: 50%;
+    }
+}
+
+.imagen-producto img {
+    max-width: 100%;
+}
+
+.contenedor-logo-busqueda {
+    display: flex;
+    padding: 20px;
+   align-items: center;
+   
+}
+
+.logo {
+    width: 50%;
+    
+}
+
+.busqueda {
+    width: 50%;
+    
+    
+}
+
+@media (min-width: 768px) {
+  .contenedor-barrasuperior {
+      display: flex;
+      width: 100vw;
+      align-items: center;
+  }
+  .contenedor-barrainferior {
+      display: flex;
+      width: 100%;
+      justify-content: space-evenly
+  }
 }
