@@ -50,7 +50,7 @@ main {
 }
 
 article {
-    margin: 5px;
+    margin-bottom: 10px;
 }
 
 .delivery-icon {
@@ -114,7 +114,7 @@ ul {
 
 .contenedor-productos {
     display: flex;
-  width: 100vw;
+  width: 100%;
   flex-wrap: wrap;
     
    
@@ -123,12 +123,14 @@ ul {
 @media (min-width: 1024px) {
     .contenedor-productos article {
         width: 25%;
+        
     }
 }
 
 @media (min-width: 768px) {
     .contenedor-productos article {
         width: 50%;
+        
     }
 }
 
