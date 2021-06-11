@@ -5,6 +5,7 @@ const app = express()
 
 const publicPath = path.resolve(__dirname, './public')
 const registerPath = path.resolve(__dirname, './views/register.html')
+const loginPath = path.resolve(__dirname, './views/login.html')
 app.use(express.static(publicPath))
 
 app.listen(3000, () => {
@@ -16,3 +17,5 @@ app.get('/', (req, res) => {
 })
 
 app.get('/registro', (req, res) => res.sendfile(registerPath))
+
+app.get('/ingreso', (req, res) => res.sendfile(loginPath))
