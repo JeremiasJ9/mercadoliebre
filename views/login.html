@@ -42,19 +42,21 @@ rel="stylesheet" />
 
     </header>
     <main>
+        <form method="POST" action="/">
         <fieldset>
             <label for="nombre-usuario">Ingrese su nombre de usuario</label>
-            <input id="nombre-usuario" name="nombre-usuario" placeholder="Ej: juanperez ">  
+            <input id="nombre-usuario" name="nombre-usuario" placeholder="Ej: juanperez " required>  
         </fieldset>
 
         <fieldset>
             <label for="contraseña">Contraseña</label>
-            <input type="password" id="password"  name="password">
+            <input type="password" id="password"  name="password" required>
         </fieldset>
 
         <fieldset>
             <button type="submit">Enviar</button>
         </fieldset>
+        </form>
     </main>
     <footer>
         <br><br><br>
