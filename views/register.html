@@ -42,7 +42,85 @@ rel="stylesheet" />
 
     </header>
     <main>
-        
+        <form method="POST" action="/">
+          <fieldset>
+              <label for="nombre-completo">Ingrese su nombre completo</label>
+              <input id="nombre-completo" name="nombre-completo" placeholder="Ej: Juan Perez ">
+          </fieldset>
+
+          <fieldset>
+            <label for="nombre-usuario">Ingrese su nombre de usuario</label>
+            <input id="nombre-usuario" name="nombre-usuario" placeholder="Ej: juanperez ">
+        </fieldset>
+
+        <fieldset>
+            <label for="fecha-nacimiento">Ingrese su fecha de nacimiento</label>
+            <input id="fecha-nacimiento" type="date" name="fecha-nacimiento">
+        </fieldset>
+
+        <fieldset>
+            <label for="domicilio">Ingrese su fecha de nacimiento</label>
+            <input id="domicilio"  name="domicilio" placeholder="Ej: Calle falsa 123">
+        </fieldset>
+
+        <fieldset>
+            <label>
+                <input type="radio" name="desea" value="Comprar">
+                <input type="radio" name="desea" value="Vender">
+                ¿Desea comprar o vender?
+              </label>
+        </fieldset>
+
+        <fieldset>
+            <label>Categorias</label>
+
+            <label>
+                Electro
+                <input name="categorias" type="checkbox" value="Electro">
+            </label>
+
+            <label>
+                Moda
+                <input name="categorias" type="checkbox" value="Moda">
+            </label>
+
+            <label>
+                Hogar
+                <input name="categorias" type="checkbox" value="Hogar">
+            </label>
+
+            <label>
+                Juguetería
+                <input name="categorias" type="checkbox" value="Juguetería">
+            </label>
+
+            <label>
+                Vida sana
+                <input name="categorias" type="checkbox" value="Vida sana">
+            </label>
+        </fieldset>
+
+        <fieldset>
+            <label>Seleccionar foto de usuario</label>
+            <input type="file" name="avatar" accept=".jpg">
+        </fieldset>
+
+        <fieldset>
+            <label for="contraseña">Contraseña</label>
+            <input type="password" id="password"  name="password">
+        </fieldset>
+
+        <fieldset>
+            <label for="contraseña">Confirmar contraseña</label>
+            <input type="password" id="password"  name="password">
+        </fieldset>
+
+        <fieldset>
+            <button type="submit">Enviar</button>
+            <button type="reset">Borrar</button>
+        </fieldset>
+
+        </form>
     </main>
     <footer>
         <br><br><br>
