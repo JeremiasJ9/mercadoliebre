@@ -4,6 +4,7 @@ const path = require('path')
 const app = express()
 
 const publicPath = path.resolve(__dirname, './public')
+const registerPath = path.resolve(__dirname, './views/register.html')
 app.use(express.static(publicPath))
 
 app.listen(3000, () => {
@@ -13,3 +14,5 @@ app.listen(3000, () => {
 app.get('/', (req, res) => {
     res.sendfile(path.resolve(__dirname, './views/home.html'))
 })
+
+app.get('/registro', (req, res) => res.sendfile(registerPath))
