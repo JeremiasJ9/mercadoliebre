@@ -1,6 +1,7 @@
      body {
      font-family: 'Roboto', sans-serif;
     font-size: 12px;
+   
 }
 
 h3 {
@@ -49,10 +50,13 @@ header {
 main {
     text-align: center;
     width: 90%;
+   
+    
 }
 
 article {
     margin-bottom: 10px;
+    
 }
 
 .delivery-icon {
@@ -126,6 +130,8 @@ ul {
     display: flex;
   width: 100%;
   flex-wrap: wrap;
+  
+  
     
    
 }
@@ -179,6 +185,7 @@ ul {
   }
 }
 
+@media (min-width: 1024px){
 .description {
     opacity: 0;
     transition: all 300ms;
@@ -186,7 +193,7 @@ ul {
 
 article:hover .description {
     opacity: 1;
-}
+}}
 
 .delivery-icon {
     transition: all 2s;
@@ -234,5 +241,14 @@ article:hover .description {
 
 .footer-icon:hover {
     color: #EAC926;
+    
+}
+
+.banner img {
+    max-width: 100%;
+    height: auto;
+    width: auto;
+    margin:auto;
+    display:block;
     
 }
