@@ -235,11 +235,11 @@ article:hover .description {
     text-align:start;
 }
 
-.footer-icon {
+.footer-icon i {
     transition: all 300ms;
 }
 
-.footer-icon:hover {
+.footer-icon:hover i {
     color: #EAC926;
     
 }
@@ -252,3 +252,4 @@ article:hover .description {
     display:block;
     
 }
+
